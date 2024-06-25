@@ -29,6 +29,7 @@ function checkAnswer(isCorrect) {
         updateCard();
     } else {
         addWrongWordToList(currentWord);
+        updateCard();
     }
     document.getElementById('cardInner').classList.remove('is-flipped');
 }
